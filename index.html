@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Grandstander&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="nav-bar">
+        <a href="#about" class="nav-link selected">About</a>
+        <a href="#work" class="nav-link">Work</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <section class="section about" id="about">
+        <div class="summary">
+          <div class="information">
+            <h1 class="title">Hey, I'm Facundo</h1>
+            <p>A Web Developer</p>
+            <p>
+              Responsible, hardworking, optimistic person. He is close to
+              finishing his Industrial Engineering degree course at UNCAus At
+              the moment he’s working on improve his javascript bases and
+              project structures.
+            </p>
+          </div>
+        </div>
+        <!-- <div class="stack">
+          <div class="slide">
+            <h2>My Stack</h2>
+            <div class="icons">
+              <p class="react-logo fa-brands fa-2x fa-react"></p>
+              <p class="node-logo fa-brands fa-2x fa-node"></p>
+              <p class="sass-logo fa-brands fa-2x fa-sass"></p>
+              <p class="css-logo fa-brands fa-2x fa-css3-alt"></p>
+              <p class="html-logo fa-brands fa-2x fa-html5"></p>
+              <p class="js-logo fa-brands fa-2x fa-js-square"></p>
+            </div>
+          </div>
+        </div> -->
+      </section>
+      <section class="section work" id="work">
+        <h2 class="title">What I've Done</h2>
+
+        <div class="slider-container">
+          <div class="slider">
+            <div class="slide">
+              <div class="project-card">
+                <h2 class="project-title">Project Title</h2>
+                <div class="project-image">
+                  <img src="public/image.jpeg" alt="" />
+                </div>
+                <p class="project-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Ducimus sit magni velit impedit sunt, reprehenderit veniam
+                  porro esse enim tenetur doloremque eaque quidem modi quos
+                  minima corrupti in, soluta illo.
+                </p>
+                <div class="actions">
+                  <button class="preview">Preview</button>
+                  <button class="visit-site">Visit Site</button>
+                </div>
+              </div>
+              <div class="project-card">
+                <h2 class="project-title">Project Title</h2>
+                <div class="project-image">
+                  <img src="public/image.jpeg" alt="" />
+                </div>
+                <p class="project-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Ducimus sit magni velit impedit sunt, reprehenderit veniam
+                  porro esse enim tenetur doloremque eaque quidem modi quos
+                  minima corrupti in, soluta illo.
+                </p>
+                <div class="actions">
+                  <button class="preview">Preview</button>
+                  <button class="visit-site">Visit Site</button>
+                </div>
+              </div>
+              <div class="project-card">
+                <h2 class="project-title">Project Title</h2>
+                <div class="project-image">
+                  <img src="public/image.jpeg" alt="" />
+                </div>
+                <p class="project-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Ducimus sit magni velit impedit sunt, reprehenderit veniam
+                  porro esse enim tenetur doloremque eaque quidem modi quos
+                  minima corrupti in, soluta illo.
+                </p>
+                <div class="actions">
+                  <button class="preview">Preview</button>
+                  <button class="visit-site">Visit Site</button>
+                </div>
+              </div>
+            </div>
+            <div class="slide"></div>
+          </div>
+        </div>
+        <div class="arrows">
+          <i class="arrow-left fa-solid fa-2x fa-circle-arrow-left"></i>
+          <i class="arrow-right fa-solid fa-2x fa-circle-arrow-right"></i>
+        </div>
+      </section>
+      <section class="section contact" id="contact">
+        <div class="form-container">
+          <form class="form">
+            <div class="form-header">
+              <input
+                class="input email-input"
+                type="email"
+                placeholder="email@example.com"
+              />
+              <input class="input name-input" type="text" placeholder="Name" />
+            </div>
+            <div class="textarea-container">
+              <textarea
+                name="message-content"
+                class="input textarea"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </div>
+            <div class="button-container">
+              <button class="form-button" type="submit">Send E-mail</button>
+            </div>
+          </form>
+        </div>
+        <div class="social-media-container">
+          <h2 class="title">Get in Touch</h2>
+          <p class="big-text">
+            Have an exciting project where you need some help?
+          </p>
+          <p class="big-text">
+            Send me a message. Or contact me in my social media.
+          </p>
+          <div class="medias-container">
+            <a href="" target="_blank">
+              <i class="fa-brands fa-2x fa-linkedin"></i>
+            </a>
+            <a href="" target="_blank">
+              <i class="fa-brands fa-2x fa-github-square"></i>
+            </a>
+            <a href="" target="_blank">
+              <i class="fa-brands fa-2x fa-instagram-square"></i>
+            </a>
+            <a href="" target="_blank">
+              <i class="fa-solid fa-2x fa-square-envelope"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="src/navbar.js"></script>
+    <script src="src/slider.js"></script>
+  </body>
+</html>
